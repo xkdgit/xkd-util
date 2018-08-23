@@ -1,5 +1,5 @@
 {
-  "name": "@xkdnode/xkd-util",
+  "name": "xkd-util",
   "version": "0.0.1",
   "description": "a very useful util lib",
   "main": "index.js",
