@@ -1,8 +1,11 @@
 {
-  "name": "@xkdnode/xkd-util",
-  "version": "1.0.0",
+  "name": "xkd-util",
+  "version": "0.0.1",
   "description": "a very useful util lib",
   "main": "index.js",
+  "bin": {
+    "xkd": "./bin/cli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
