@@ -1,5 +1,5 @@
 const findOne = (arr, matcher) => {
-    if (!arr) return null
+    if (!arr ) return null
     for (let i = 0; i < arr.length; i++) {
         const ele = arr[i];
         if (matcher(ele)) {
