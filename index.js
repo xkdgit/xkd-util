@@ -1,4 +1,4 @@
-const find = (arr, matcher) => {
+const findOne = (arr, matcher) => {
     if (!arr) return null
     for (let i = 0; i < arr.length; i++) {
         const ele = arr[i];
@@ -9,7 +9,7 @@ const find = (arr, matcher) => {
     return null
 }
 
-const remove = (arr, matcher) => {
+const removeOne = (arr, matcher) => {
     if (!arr) return null
     for (let i = 0; i < arr.length; i++) {
         const ele = arr[i];
@@ -20,6 +20,6 @@ const remove = (arr, matcher) => {
 }
 
 module.exports = {
-    find: find,
-    remove: remove
+    find: findOne,
+    remove: removeOne
 }
